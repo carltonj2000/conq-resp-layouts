@@ -55,10 +55,6 @@ h1 {
   text-align: center;
 }
 
-.col + .col {
-  margin-left: 1em;
-}
-
 .hero {
   padding: 100px 0;
   background-color: #23424a;
@@ -89,15 +85,19 @@ h1 {
   opacity: 0.75;
 }
 
-.h2-1 {
+.col + .col {
+  margin-left: 1em;
+}
+
+.three-col h2 {
   color: #87629a;
 }
 
-.section2 {
+.two-col {
   color: white;
-  background: #87629a;
+  background: #136c72;
 }
 
-.gap {
+section {
   padding: 3em 0;
 }
