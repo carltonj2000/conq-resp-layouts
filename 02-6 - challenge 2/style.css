@@ -92,22 +92,22 @@ h1 {
   opacity: 0.75;
 }
 
-.section1 {
+.main {
   margin-top: 3em;
 }
 
-.section1 .hero__img div {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.primary-content {
+  width: 62%;
 }
 
-.section1 .s1text {
+.section-title {
+  color: #87629a;
+}
+
+.sidebar {
+  width: 32%;
   background: #136c72;
   color: white;
-  padding: 2em;
-}
-
-.section1 .hero__img div p {
+  padding: 1em;
   text-align: center;
 }
